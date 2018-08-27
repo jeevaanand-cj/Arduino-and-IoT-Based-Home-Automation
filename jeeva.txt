@@ -1,0 +1,39 @@
+pipeline{
+   
+     agent any
+	 
+	 stages {
+	  
+	   Stage('Build'){
+	    
+		steps{
+		
+		   print("hai")
+		
+		}
+	   
+	   }
+	   Stage('test'){
+	    
+		steps{
+		
+		   print("hello")
+		
+		}
+	   
+	   }
+	   
+	   Stage('deploy'){
+	    
+		steps{
+		
+		   print("how r u?")
+		
+		}
+	   
+	   }
+	 
+	 }
+   
+
+}
